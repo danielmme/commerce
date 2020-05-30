@@ -1,12 +1,12 @@
 {
-    "name": "drupalcommerce/demo-project",
-    "description": "Commerce 2.x out of the box demonstration",
+    "name": "drupalmme/drupalcommerce2",
+    "description": "Commerce 2.x",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Daniel MMe",
+            "role": "Principal Developer"
         }
     ],
     "repositories": {
@@ -16,7 +16,7 @@
         },
         "demo_commerce": {
             "type": "vcs",
-            "url": "https://github.com/drupalcommerce/demo_commerce"
+            "url": "https://github.com/danielmme/demo_commerce"
         },
         "asset-packagist": {
             "type": "composer",
@@ -36,14 +36,24 @@
         "ext-curl": "*",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
+        "drupal/commerce_checkout_order_fields": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
-        "drupalcommerce/demo_commerce": "dev-master",
+        "drupal/devel": "^2.1",
+        "drupal/swiftmailer": "^2.0",
+        "danielmme/demo_commerce": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "zaporylie/composer-drupal-optimizations": "^1.0",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/belgrade": "1.x-dev",
+        "drupal/commerce": "^2.0",
+        "drupal/commerce_cart_api": "^1.0",
+        "drupal/commerce_cart_flyout": "^1.0",
+        "drupal/commerce_demo": "1.x-dev",
+        "drupal/token": "^1.0"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8.0"

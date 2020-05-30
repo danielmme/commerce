@@ -18,6 +18,10 @@
             "type": "vcs",
             "url": "https://github.com/danielmme/demo_commerce"
         },
+        "commerce_pagseguro_v2": {
+            "type": "vcs",
+            "url": "https://github.com/danielmme/commerce_pagseguro_v2"
+        },
         "asset-packagist": {
             "type": "composer",
             "url": "https://asset-packagist.org"
@@ -43,6 +47,7 @@
         "drupal/devel": "^2.1",
         "drupal/swiftmailer": "^2.0",
         "danielmme/demo_commerce": "dev-master",
+        "danielmme/commerce_pagseguro_v2": "^1.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

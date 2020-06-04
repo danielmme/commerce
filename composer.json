@@ -51,7 +51,7 @@
         "drupal/devel": "^2.1",
         "drupal/swiftmailer": "^2.0",
         "danielmme/commerce_profile_br": "dev-master",
-        "drupalmme/commerce_demo_br": "^1.0",
+        "danielmme/commerce_demo_br": "^1.0",
         "danielmme/commerce_pagseguro_v2": "^1.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",

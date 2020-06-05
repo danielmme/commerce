@@ -1,0 +1,21 @@
+uuid: 9981540c-4dbf-4702-a185-821452d606b2
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_cpf
+field_name: field_cpf
+entity_type: profile
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

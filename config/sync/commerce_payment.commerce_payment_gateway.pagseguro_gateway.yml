@@ -1,0 +1,23 @@
+uuid: d2b43ab6-3673-4b3e-aba3-dbe4bc5eb8a8
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - commerce_pagseguro_v2
+id: pagseguro_gateway
+label: 'Pagseguro Gateway'
+weight: -10
+plugin: quickpay_pagseguro_checkout
+configuration:
+  token: 560C08B41AD443CBBC2D363D2385A633
+  token_sandbox: 560C08B41AD443CBBC2D363D2385A633
+  email: medeiros.danielm@gmail.com
+  endpoint: 'https://ws.sandbox.pagseguro.uol.com.br/v2'
+  endpoint_sandbox: 'https://ws.sandbox.pagseguro.uol.com.br/v2'
+  display_label: 'QuickPay Pagseguro'
+  mode: test
+  payment_method_types:
+    - pag_credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND

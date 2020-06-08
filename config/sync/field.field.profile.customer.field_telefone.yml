@@ -1,17 +1,17 @@
-uuid: cbfeeaa5-78a3-457b-9702-9eca02efdd3b
+uuid: e7f0b4cb-9972-4ad3-aadf-18086bc8ea8d
 langcode: pt-br
 status: true
 dependencies:
   config:
-    - field.storage.profile.field_cpf
+    - field.storage.profile.field_telefone
     - profile.type.customer
-id: profile.customer.field_cpf
-field_name: field_cpf
+id: profile.customer.field_telefone
+field_name: field_telefone
 entity_type: profile
 bundle: customer
-label: CPF
+label: telefone
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

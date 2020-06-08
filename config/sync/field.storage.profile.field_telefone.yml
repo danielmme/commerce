@@ -1,11 +1,11 @@
-uuid: 9981540c-4dbf-4702-a185-821452d606b2
+uuid: 7f3a1dc4-6353-488f-bff5-4b9274f9456d
 langcode: pt-br
 status: true
 dependencies:
   module:
     - profile
-id: profile.field_cpf
-field_name: field_cpf
+id: profile.field_telefone
+field_name: field_telefone
 entity_type: profile
 type: string
 settings:

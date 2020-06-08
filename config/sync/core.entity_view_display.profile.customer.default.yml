@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.profile.customer.address
-    - field.field.profile.customer.field_cpf
+    - field.field.profile.customer.field_telefone
     - field.field.profile.customer.tax_number
     - profile.type.customer
   enforced:
@@ -27,7 +27,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_cpf:
+  field_telefone:
     weight: 2
     label: above
     settings:

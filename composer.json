@@ -22,6 +22,10 @@
             "type": "vcs",
             "url": "https://github.com/danielmme/commerce_pagseguro_v2"
         },
+        "address_br": {
+            "type": "vcs",
+            "url": "https://github.com/danielmme/address_br"
+        },
         "commerce_demo_br": {
             "type": "vcs",
             "url": "https://github.com/danielmme/commerce_demo_br"
@@ -44,26 +48,28 @@
         "ext-curl": "*",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal/commerce_checkout_order_fields": "^1.0",
-        "drupal/console": "^1.0.2",
-        "drupal/core": "^8.8.0",
-        "drupal/core-composer-scaffold": "^8.8.0",
-        "drupal/devel": "^2.1",
-        "drupal/swiftmailer": "^2.0",
-        "danielmme/commerce_profile_br": "dev-master",
         "danielmme/commerce_demo_br": "^1.0",
         "danielmme/commerce_pagseguro_v2": "^1.0",
-        "oomphinc/composer-installers-extender": "^1.1",
-        "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
-        "zaporylie/composer-drupal-optimizations": "^1.0",
+        "danielmme/commerce_profile_br": "dev-master",
+        "danielmme/address_br": "dev-master",
+        "drupal/address": "^1.8",
         "drupal/admin_toolbar": "^2.0",
         "drupal/belgrade": "1.x-dev",
         "drupal/commerce": "^2.18",
         "drupal/commerce_cart_api": "^1.0",
         "drupal/commerce_cart_flyout": "^1.0",
+        "drupal/commerce_checkout_order_fields": "^1.0",
         "drupal/commerce_shipping": "^2.0",
-        "drupal/token": "^1.0"
+        "drupal/console": "^1.0.2",
+        "drupal/core": "^8.8.0",
+        "drupal/core-composer-scaffold": "^8.8.0",
+        "drupal/devel": "^2.1",
+        "drupal/swiftmailer": "^2.0",
+        "drupal/token": "^1.0",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8.0"
